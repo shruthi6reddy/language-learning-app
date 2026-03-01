@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+import app.models  # noqa — ensures all models are registered
 
 app = FastAPI()
 
